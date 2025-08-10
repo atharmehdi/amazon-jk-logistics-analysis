@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f2806354af4e8145365d71fd42ef64af {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f2806354af4e8145365d71fd42ef64af" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f2806354af4e8145365d71fd42ef64af = L.map(
+                "map_f2806354af4e8145365d71fd42ef64af",
+                {
+                    center: [33.7782, 75.3412],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ed3b044061cfc5b72875aab23cb41103 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ed3b044061cfc5b72875aab23cb41103.addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+            var circle_da3458165c19d37cfd4c9467400551ae = L.circle(
+                [33.73, 75.15],
+                {"bubblingMouseEvents": true, "color": "#404387", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#404387", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 53934.6, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_0415b17aa8c1b3250121c091e4dfdfe2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb3a0d3a5f58fd3fa6968a5769e63e6e = $(`<div id="html_bb3a0d3a5f58fd3fa6968a5769e63e6e" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Anantnag<br><strong>Population:</strong> 1,078,692<br><strong>Complexity Score:</strong> 0.45</div>`)[0];
+                popup_0415b17aa8c1b3250121c091e4dfdfe2.setContent(html_bb3a0d3a5f58fd3fa6968a5769e63e6e);
+            
+        
+
+        circle_da3458165c19d37cfd4c9467400551ae.bindPopup(popup_0415b17aa8c1b3250121c091e4dfdfe2)
+        ;
+
+        
+    
+    
+            var circle_ec4e58a33315d7d2af91469a186d76c3 = L.circle(
+                [34.42, 74.65],
+                {"bubblingMouseEvents": true, "color": "#fde724", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fde724", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19611.6, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_3c3e669bb0c48d9193aebd3c07581296 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_671b752a0c367e6568a7ef84e30fb346 = $(`<div id="html_671b752a0c367e6568a7ef84e30fb346" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Bandipora<br><strong>Population:</strong> 392,232<br><strong>Complexity Score:</strong> 0.77</div>`)[0];
+                popup_3c3e669bb0c48d9193aebd3c07581296.setContent(html_671b752a0c367e6568a7ef84e30fb346);
+            
+        
+
+        circle_ec4e58a33315d7d2af91469a186d76c3.bindPopup(popup_3c3e669bb0c48d9193aebd3c07581296)
+        ;
+
+        
+    
+    
+            var circle_24314996d917cdc9eb48ccf9e227374a = L.circle(
+                [34.2, 74.34],
+                {"bubblingMouseEvents": true, "color": "#423e85", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#423e85", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50401.95, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_325994da46a1164c104c0017f469629f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04b9f86a3c5762cf25140563b7d61473 = $(`<div id="html_04b9f86a3c5762cf25140563b7d61473" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Baramulla<br><strong>Population:</strong> 1,008,039<br><strong>Complexity Score:</strong> 0.44</div>`)[0];
+                popup_325994da46a1164c104c0017f469629f.setContent(html_04b9f86a3c5762cf25140563b7d61473);
+            
+        
+
+        circle_24314996d917cdc9eb48ccf9e227374a.bindPopup(popup_325994da46a1164c104c0017f469629f)
+        ;
+
+        
+    
+    
+            var circle_2bd11d53a5aeed07caf5d154c4af275b = L.circle(
+                [34.02, 74.67],
+                {"bubblingMouseEvents": true, "color": "#38568b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#38568b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 37687.25, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_7e7dfa78b67a73a59a5b94d7e98ec0aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d912b4cfa9744e50f4a4d4da6640b0b = $(`<div id="html_1d912b4cfa9744e50f4a4d4da6640b0b" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Budgam<br><strong>Population:</strong> 753,745<br><strong>Complexity Score:</strong> 0.48</div>`)[0];
+                popup_7e7dfa78b67a73a59a5b94d7e98ec0aa.setContent(html_1d912b4cfa9744e50f4a4d4da6640b0b);
+            
+        
+
+        circle_2bd11d53a5aeed07caf5d154c4af275b.bindPopup(popup_7e7dfa78b67a73a59a5b94d7e98ec0aa)
+        ;
+
+        
+    
+    
+            var circle_2b352dd5084cd7b530b58618e7ccc6c0 = L.circle(
+                [33.08, 74.83],
+                {"bubblingMouseEvents": true, "color": "#f3e51e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3e51e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20496.8, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_051c06cfc1848472a524433077651389 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f01c6fc12b9faa9fce2fee645603433b = $(`<div id="html_f01c6fc12b9faa9fce2fee645603433b" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Doda<br><strong>Population:</strong> 409,936<br><strong>Complexity Score:</strong> 0.77</div>`)[0];
+                popup_051c06cfc1848472a524433077651389.setContent(html_f01c6fc12b9faa9fce2fee645603433b);
+            
+        
+
+        circle_2b352dd5084cd7b530b58618e7ccc6c0.bindPopup(popup_051c06cfc1848472a524433077651389)
+        ;
+
+        
+    
+    
+            var circle_b489e64f00f5a61420f0464e848fa79a = L.circle(
+                [34.23, 74.78],
+                {"bubblingMouseEvents": true, "color": "#3b518a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3b518a", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14872.3, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_ab98b57396284dc43588a6d339a99046 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fedcdd7eda77b314e89721762dde2888 = $(`<div id="html_fedcdd7eda77b314e89721762dde2888" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Ganderbal<br><strong>Population:</strong> 297,446<br><strong>Complexity Score:</strong> 0.47</div>`)[0];
+                popup_ab98b57396284dc43588a6d339a99046.setContent(html_fedcdd7eda77b314e89721762dde2888);
+            
+        
+
+        circle_b489e64f00f5a61420f0464e848fa79a.bindPopup(popup_ab98b57396284dc43588a6d339a99046)
+        ;
+
+        
+    
+    
+            var circle_4b4174161c2cf3270bb7dc681bba2167 = L.circle(
+                [32.73, 74.87],
+                {"bubblingMouseEvents": true, "color": "#440154", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#440154", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 76497.9, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_f6c6e5b32dfff4b6059e27000799c063 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0c342a65a3bb50cb1c2aacb3fe51ed8 = $(`<div id="html_f0c342a65a3bb50cb1c2aacb3fe51ed8" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Jammu<br><strong>Population:</strong> 1,529,958<br><strong>Complexity Score:</strong> 0.37</div>`)[0];
+                popup_f6c6e5b32dfff4b6059e27000799c063.setContent(html_f0c342a65a3bb50cb1c2aacb3fe51ed8);
+            
+        
+
+        circle_4b4174161c2cf3270bb7dc681bba2167.bindPopup(popup_f6c6e5b32dfff4b6059e27000799c063)
+        ;
+
+        
+    
+    
+            var circle_0f3c63b7fd4a4f3be45b65c4b9bd14c8 = L.circle(
+                [32.38, 75.55],
+                {"bubblingMouseEvents": true, "color": "#482374", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#482374", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30821.75, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_831ed2e927819ad9a805e092f33b9484 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cb4724cc754811b576320f0eb2e1d6e = $(`<div id="html_9cb4724cc754811b576320f0eb2e1d6e" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Kathua<br><strong>Population:</strong> 616,435<br><strong>Complexity Score:</strong> 0.41</div>`)[0];
+                popup_831ed2e927819ad9a805e092f33b9484.setContent(html_9cb4724cc754811b576320f0eb2e1d6e);
+            
+        
+
+        circle_0f3c63b7fd4a4f3be45b65c4b9bd14c8.bindPopup(popup_831ed2e927819ad9a805e092f33b9484)
+        ;
+
+        
+    
+    
+            var circle_330f1171d97641aa30936e6acbbbb228 = L.circle(
+                [33.77, 74.1],
+                {"bubblingMouseEvents": true, "color": "#443781", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#443781", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21224.15, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_80e57c5816dea60435f89306ceb7aa31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb4ce6870f802bddffc81b0a1e358895 = $(`<div id="html_eb4ce6870f802bddffc81b0a1e358895" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Kulgam<br><strong>Population:</strong> 424,483<br><strong>Complexity Score:</strong> 0.43</div>`)[0];
+                popup_80e57c5816dea60435f89306ceb7aa31.setContent(html_eb4ce6870f802bddffc81b0a1e358895);
+            
+        
+
+        circle_330f1171d97641aa30936e6acbbbb228.bindPopup(popup_80e57c5816dea60435f89306ceb7aa31)
+        ;
+
+        
+    
+    
+            var circle_4d832ebdfb15a5899eec9a074bcdda09 = L.circle(
+                [34.42, 74.22],
+                {"bubblingMouseEvents": true, "color": "#cae01e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cae01e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 43517.7, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_32cc633acd01153f475e0e6bc9223d6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f4cca208ae30928020e60c711854249 = $(`<div id="html_5f4cca208ae30928020e60c711854249" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Kupwara<br><strong>Population:</strong> 870,354<br><strong>Complexity Score:</strong> 0.74</div>`)[0];
+                popup_32cc633acd01153f475e0e6bc9223d6e.setContent(html_5f4cca208ae30928020e60c711854249);
+            
+        
+
+        circle_4d832ebdfb15a5899eec9a074bcdda09.bindPopup(popup_32cc633acd01153f475e0e6bc9223d6e)
+        ;
+
+        
+    
+    
+            var circle_99b7e331e6da809575eda7169614283c = L.circle(
+                [33.15, 75.57],
+                {"bubblingMouseEvents": true, "color": "#c7e01f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c7e01f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23841.75, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_f797dac45d656517b7fc01f18669e294 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40f565241fdd114f435316a32e39edfc = $(`<div id="html_40f565241fdd114f435316a32e39edfc" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Poonch<br><strong>Population:</strong> 476,835<br><strong>Complexity Score:</strong> 0.74</div>`)[0];
+                popup_f797dac45d656517b7fc01f18669e294.setContent(html_40f565241fdd114f435316a32e39edfc);
+            
+        
+
+        circle_99b7e331e6da809575eda7169614283c.bindPopup(popup_f797dac45d656517b7fc01f18669e294)
+        ;
+
+        
+    
+    
+            var circle_01478f66c45d494a958b607030f325c8 = L.circle(
+                [33.87, 74.83],
+                {"bubblingMouseEvents": true, "color": "#414286", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#414286", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28022.0, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_ad7a3e5457e181a1f01fbd8605fb8083 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6192b4529e551cd426d2c654f8f0cc4 = $(`<div id="html_c6192b4529e551cd426d2c654f8f0cc4" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Pulwama<br><strong>Population:</strong> 560,440<br><strong>Complexity Score:</strong> 0.45</div>`)[0];
+                popup_ad7a3e5457e181a1f01fbd8605fb8083.setContent(html_c6192b4529e551cd426d2c654f8f0cc4);
+            
+        
+
+        circle_01478f66c45d494a958b607030f325c8.bindPopup(popup_ad7a3e5457e181a1f01fbd8605fb8083)
+        ;
+
+        
+    
+    
+            var circle_cf601bd07dd1c4d35807546e6c25fe74 = L.circle(
+                [33.38, 74.3],
+                {"bubblingMouseEvents": true, "color": "#45347f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#45347f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 32120.75, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_aa0ba18e267af23158d5a3370f361cc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fe5e7d1cbcec2c19917730caebb6b36 = $(`<div id="html_4fe5e7d1cbcec2c19917730caebb6b36" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Rajouri<br><strong>Population:</strong> 642,415<br><strong>Complexity Score:</strong> 0.43</div>`)[0];
+                popup_aa0ba18e267af23158d5a3370f361cc3.setContent(html_4fe5e7d1cbcec2c19917730caebb6b36);
+            
+        
+
+        circle_cf601bd07dd1c4d35807546e6c25fe74.bindPopup(popup_aa0ba18e267af23158d5a3370f361cc3)
+        ;
+
+        
+    
+    
+            var circle_a8650fe77667f9a38d1d004ce0c8d4cf = L.circle(
+                [33.31, 75.86],
+                {"bubblingMouseEvents": true, "color": "#fde724", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fde724", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15733.35, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_00fcdba00f34d30fe62c97711e054d70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30accd8cef313b4c714291529e2f9286 = $(`<div id="html_30accd8cef313b4c714291529e2f9286" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Reasi<br><strong>Population:</strong> 314,667<br><strong>Complexity Score:</strong> 0.78</div>`)[0];
+                popup_00fcdba00f34d30fe62c97711e054d70.setContent(html_30accd8cef313b4c714291529e2f9286);
+            
+        
+
+        circle_a8650fe77667f9a38d1d004ce0c8d4cf.bindPopup(popup_00fcdba00f34d30fe62c97711e054d70)
+        ;
+
+        
+    
+    
+            var circle_5a992e5eeed0b4d478d5d17733411622 = L.circle(
+                [32.65, 75.07],
+                {"bubblingMouseEvents": true, "color": "#45085b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#45085b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15944.9, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_dd40d2147844b066a95f2d2a8df7d414 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a6d4a48a066c5fc668beaadd2db83dd = $(`<div id="html_1a6d4a48a066c5fc668beaadd2db83dd" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Samba<br><strong>Population:</strong> 318,898<br><strong>Complexity Score:</strong> 0.37</div>`)[0];
+                popup_dd40d2147844b066a95f2d2a8df7d414.setContent(html_1a6d4a48a066c5fc668beaadd2db83dd);
+            
+        
+
+        circle_5a992e5eeed0b4d478d5d17733411622.bindPopup(popup_dd40d2147844b066a95f2d2a8df7d414)
+        ;
+
+        
+    
+    
+            var circle_74ed85c4bca09f60abf28ccc16f0cc73 = L.circle(
+                [33.64, 75.02],
+                {"bubblingMouseEvents": true, "color": "#3c4d8a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c4d8a", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13310.75, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_0c52fe8917ceab533078ff1213aa7c5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5463e0e36c1c2b00961c6c232f5b3e59 = $(`<div id="html_5463e0e36c1c2b00961c6c232f5b3e59" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Shopian<br><strong>Population:</strong> 266,215<br><strong>Complexity Score:</strong> 0.46</div>`)[0];
+                popup_0c52fe8917ceab533078ff1213aa7c5b.setContent(html_5463e0e36c1c2b00961c6c232f5b3e59);
+            
+        
+
+        circle_74ed85c4bca09f60abf28ccc16f0cc73.bindPopup(popup_0c52fe8917ceab533078ff1213aa7c5b)
+        ;
+
+        
+    
+    
+            var circle_db6540ab7400af01b3c585f9d48d0843 = L.circle(
+                [34.08, 74.79],
+                {"bubblingMouseEvents": true, "color": "#46307d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#46307d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 61841.45, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_4100f00ec185dbecadd42e3480076d3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f638cb6f0f8d0d1f7bc84e5815acb7d = $(`<div id="html_1f638cb6f0f8d0d1f7bc84e5815acb7d" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Srinagar<br><strong>Population:</strong> 1,236,829<br><strong>Complexity Score:</strong> 0.42</div>`)[0];
+                popup_4100f00ec185dbecadd42e3480076d3b.setContent(html_1f638cb6f0f8d0d1f7bc84e5815acb7d);
+            
+        
+
+        circle_db6540ab7400af01b3c585f9d48d0843.bindPopup(popup_4100f00ec185dbecadd42e3480076d3b)
+        ;
+
+        
+    
+    
+            var circle_3baafdd4f4de946c51c506682373e0c7 = L.circle(
+                [32.93, 75.13],
+                {"bubblingMouseEvents": true, "color": "#45327f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#45327f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27749.25, "stroke": true, "weight": 3}
+            ).addTo(map_f2806354af4e8145365d71fd42ef64af);
+        
+    
+        var popup_64a2f9694b6ec8b3d74d25eb4746b6da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c81efc082ac935e8b3498ec7d7f0d97 = $(`<div id="html_5c81efc082ac935e8b3498ec7d7f0d97" style="width: 100.0%; height: 100.0%;"><strong>District:</strong> Udhampur<br><strong>Population:</strong> 554,985<br><strong>Complexity Score:</strong> 0.43</div>`)[0];
+                popup_64a2f9694b6ec8b3d74d25eb4746b6da.setContent(html_5c81efc082ac935e8b3498ec7d7f0d97);
+            
+        
+
+        circle_3baafdd4f4de946c51c506682373e0c7.bindPopup(popup_64a2f9694b6ec8b3d74d25eb4746b6da)
+        ;
+
+        
+    
+</script>
+</html>
